@@ -3,8 +3,8 @@ import React from "react";
 function Navbar() {
   return (
     <div className="flex items-center justify-between p-4 z-[100] w-full absolute">
-      <h1 className="text-red-600 text-4xl font-bold cursor-pointer">
-        Netflix
+      <h1 className="text-red-600 text-2xl font-light cursor-pointer">
+        <span className="text-white">Movie</span>/Match
       </h1>
       <div>
         <button className="text-white pr-4">Sign In</button>
