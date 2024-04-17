@@ -51,11 +51,11 @@ J'utilise l'API de The Movie Database car elle est assez efficace pour le type d
 # Work In Progress
 
 Ce projet est toujours en cours. J'ai beaucoup appris avec, et si la prise en main de React et Tailwind n'a pas été trop difficile car j'y avais déjà touché pour mon Portfolio, je continue d'apprendre le fonctionnement des routeurs.
-La travail avec MongoDB va être une vrai défi.
+La travail avec MongoDB va être un vrai défi.
 
 # Et la suite...
 
-En plus de l'authentification, le vraie challenge est cette nouvelle fonction que j'aimerais ajouter au site et qui lui donnerait un vrai petit +.
+En plus de l'authentification, le challenge qui m'attend est l'ajout d'une fonction au site qui lui donnerait un vrai petit +.
 
 Comme le principe des applications de rencontres, j'aimerais que l'utilisateur puisse indiquer ses goûts en sélectionnant des mots-clés.
 
@@ -64,3 +64,15 @@ Avec l'API de The Movie Database, il existe des mots-clés associés à chaque f
 Je veux créer une page qui fera apparaitre un film qui correspond aux mots-clés pré-sélectionnés. L'utilisateur pourra liker ou non le film et passer à la proposition suivante. Une fois sélectionné, le film sera ajouté à une liste de "Favoris".
 
 A bientôt, pour la suite !
+
+# Déjà un aperçu
+
+N'hésitez pas à faire un tour sur le lien Github pour avoir un aperçu !
+
+https://apolline-diaz.github.io/Movie-App/
+
+Pas de panique si vous tomber sur une page noir (je dois encore résoudre ce problème), vous pouvez sans soucis cliquer sur le logo "Movie/Match", et vous atterissez bien sur la page d'accueil.
+
+Vous pouvez aussi découvrir la page de connexion ou d'inscription en cliquant sur "Sign In" ou "Sign Up" dans la barre de navigation.
+
+Bonne visite !
