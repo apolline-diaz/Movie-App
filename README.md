@@ -25,7 +25,7 @@ Il sera possible de liker un film pour qu'il soit ajouté à votre Watch List (l
 
 /!\ La création de compte et la connexion ne sont pas encore opérationnelles!
 Les pages "Sign In" et "Sign Up" ne vous donnent pas encore accès à votre espace personnel.
-C'est la prochaine étape de mon projet : développer avec MongoDB l'authentification.
+C'est la prochaine étape de mon projet : développer avec MySQL l'authentification.
 
 En bref, cette page vous permet de vous connecter à votre compte.
 
@@ -40,18 +40,18 @@ J'ai décidé de travailler avec :
 
 - React/Vite
 - Tailwind
-- MongoDB
+- MySQL
 
 C'etait l'occasion de mieux découvrir et prendre en main React et Tailwind, que je pourrais utiliser pour de futurs projets personnels ou professionnels. Je les ai aussitôt adoptés!
 
-La prochaine étape est de travailler avec MongoDB pour mettre en place l'authentification de l'utilisateur.
+La prochaine étape est de travailler avec MySQL pour mettre en place l'authentification de l'utilisateur.
 
 J'utilise l'API de The Movie Database car elle est assez efficace pour le type d'usage que j'en fais, et vu mon projet personnel (ce n'était pas utile de choisir ImDB pour ce cas).
 
 # Work In Progress
 
 Ce projet est toujours en cours. J'ai beaucoup appris avec, et si la prise en main de React et Tailwind n'a pas été trop difficile car j'y avais déjà touché pour mon Portfolio, je continue d'apprendre le fonctionnement des routeurs.
-La travail avec MongoDB va être un vrai défi.
+La travail avec MySQL sera un nouveau défi.
 
 # Et la suite...
 
