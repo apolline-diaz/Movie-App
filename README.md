@@ -17,11 +17,17 @@ Le site est encore en développement, mais pour l'instant vous pouvez déjà y t
 
 ### Page d'accueil
 
+![alt text](src/assets/Home_Page.png)
+
 Elle affiche les films de l'actualité, mais aussi plusieurs sélections thématiques (les films du moment, les plus populaires, les mieux notés, ou sur un sujet spécial comme par exemple : "LGBT", etc).
 
 Il sera possible de liker un film pour qu'il soit ajouté à votre Watch List (le petit coeur qui apparait quand vous survoler l'image d'un film).
 
 ### Page de connexion "Sign In"
+
+// En cours de développement //
+
+![alt text](src/assets/Sign_In_Page.png)
 
 /!\ La création de compte et la connexion ne sont pas encore opérationnelles!
 Les pages "Sign In" et "Sign Up" ne vous donnent pas encore accès à votre espace personnel.
@@ -31,8 +37,29 @@ En bref, cette page vous permet de vous connecter à votre compte.
 
 ### Page d'inscription "Sign Up"
 
+// En cours de développement //
+
+![alt text](src/assets/Sign_Up_Page.png)
+
 En bref, cette page vous permet de créer votre compte.
-(Mais elle n'est pas encore opérationnelle)
+
+### Page "Discover"
+
+![alt text](src/assets/Discover_Page.png)
+
+Cette page est le petit + de l'application.
+
+Elle est faite pour découvrir de nouvelles références ciné et séries.
+Elle se présente sous le même format que les applications de rencontres.
+"Swipez à droite" pour liker le film ou "swiper à gauche" autrement.
+
+L'objectif : chaque like enregistrera le film dans une liste de Favoris disponible dans le compte de l'utilisateur.
+
+Et si possible : les films seront affichés en fonction de mots-clés pré-sélectionnés par l'utilisateur pour correspondre à ses goûts.
+
+Les fonctions pour swiper l'image et l'enregistrement du like sont en cours de développement.
+
+Pour l'instant,vous ne pouvez pas intéragir avec les images.
 
 # Les technologies
 
@@ -51,7 +78,7 @@ J'utilise l'API de The Movie Database car elle est assez efficace pour le type d
 # Work In Progress
 
 Ce projet est toujours en cours. J'ai beaucoup appris avec, et si la prise en main de React et Tailwind n'a pas été trop difficile car j'y avais déjà touché pour mon Portfolio, je continue d'apprendre le fonctionnement des routeurs.
-La travail avec MySQL sera un nouveau défi.
+La travail avec MySQL sera un nouveau défi ainsi que l'animation de la page Discover et son système de recommandation.
 
 # Et la suite...
 
