@@ -18,6 +18,7 @@ Le site est encore en développement, mais pour l'instant vous pouvez déjà y t
 ### Page d'accueil
 
 ![alt text](src/assets/Home_Page.png)
+![alt text](src/assets/Rows_Page.png)
 
 Elle affiche les films de l'actualité, mais aussi plusieurs sélections thématiques (les films du moment, les plus populaires, les mieux notés, ou sur un sujet spécial comme par exemple : "LGBT", etc).
 
@@ -98,7 +99,7 @@ N'hésitez pas à faire un tour sur le lien Github pour avoir un aperçu !
 
 https://apolline-diaz.github.io/Movie-App/
 
-Pas de panique si vous tomber sur une page noir (je dois encore résoudre ce problème), vous pouvez sans soucis cliquer sur le logo "Movie/Match", et vous atterissez bien sur la page d'accueil.
+Pas de panique si vous tombez sur une page blanche (je dois encore résoudre ce problème), vous pouvez sans soucis cliquer sur le logo "Movie/Match" (en haut à gauche), et vous atterissez bien sur la page d'accueil.
 
 Vous pouvez aussi découvrir la page de connexion ou d'inscription en cliquant sur "Sign In" ou "Sign Up" dans la barre de navigation.
 
