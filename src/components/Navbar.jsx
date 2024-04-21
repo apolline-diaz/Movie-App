@@ -10,7 +10,7 @@ function Navbar() {
         </h1>
       </Link>
       <div>
-        <Link to="/discover">
+        <Link to="/swiper">
           <button className="text-white pr-4">Discover</button>
         </Link>
         <Link to="/login">
