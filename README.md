@@ -83,13 +83,11 @@ La travail avec MySQL sera un nouveau défi ainsi que l'animation de la page Dis
 
 # Et la suite...
 
-En plus de l'authentification, le challenge qui m'attend est l'ajout d'une fonction au site qui lui donnerait un vrai petit +.
+En plus de l'authentification, le challenge qui m'attend est la mise en place de la page "Discover".
 
-Comme le principe des applications de rencontres, j'aimerais que l'utilisateur puisse indiquer ses goûts en sélectionnant des mots-clés.
+Comme le principe des applications de rencontres, j'aimerais que l'utilisateur, une fois connecté, puisse indiquer ses goûts en sélectionnant des mots-clés et que soit généré une suite de films qu'il pourra liker et enregistrer dans ses favoris.
 
-Avec l'API de The Movie Database, il existe des mots-clés associés à chaque film.
-
-Je veux créer une page qui fera apparaitre un film qui correspond aux mots-clés pré-sélectionnés. L'utilisateur pourra liker ou non le film et passer à la proposition suivante. Une fois sélectionné, le film sera ajouté à une liste de "Favoris".
+Avec l'API de The Movie Database, il existe des mots-clés associés à chaque film. Je travaillerais avec cet outil pour proposer des mots à sélectionner à l'utilisateur.
 
 A bientôt, pour la suite !
 
