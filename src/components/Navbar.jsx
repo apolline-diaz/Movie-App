@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="flex items-center justify-between p-4 z-[100] w-full absolute">
-      <Link to="/">
+      <Link to="/Movie-App/">
         <h1 className="text-pink-400 text-2xl font-light cursor-pointer">
           <span className="text-white">Movie</span>/Match
         </h1>
