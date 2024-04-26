@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/movie-app/" element={<Home />} />
         <Route path="/swiper" element={<Swiper />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
