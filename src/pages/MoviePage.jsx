@@ -54,7 +54,7 @@ const MoviePage = () => {
               <FaRegHeart className='absolute top-4 left-4 text-gray-300' />
             )}
           </p> */}
-          <h1 className='absolute bottom-0 left-0 w-full h-full text-3xl md:text-5xl font-bold p-4'>
+          <h1 className='relative bottom-0 left-0 w-full h-full text-3xl md:text-5xl font-bold p-4'>
             {movie.name}
           </h1>
         </div>
@@ -64,7 +64,7 @@ const MoviePage = () => {
             <strong>Release Date:</strong> {movie.release_date}
           </p>
           <p>
-            <strong>Rating:</strong> {movie.vote}
+            <strong> {movie.vote}</strong>
           </p>
         </div>
       </div>
