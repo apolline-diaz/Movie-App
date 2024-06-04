@@ -23,7 +23,6 @@ const requests = {
   requestRomance: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=9840`,
   requestLove: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=9673`,
   requestComedy: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&page=1&with_keywords=322268`,
-  requestPolitical: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&page=1&with_keywords=264792`,
 };
 
 export default requests;
