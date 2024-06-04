@@ -11,11 +11,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/Movie-App/" element={<Home />} />
-        <Route path="/swiper" element={<Swiper />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/account" element={<Account />} />
+        <Route path='/Movie-App/' element={<Home />} />
+        {/* <Route path="/swiper" element={<Swiper />} /> */}
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/account' element={<Account />} />
       </Routes>
     </>
   );
