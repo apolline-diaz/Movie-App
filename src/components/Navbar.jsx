@@ -10,17 +10,17 @@ function Navbar() {
         </h1>
       </Link>
       <div>
-        {/* <Link to="/swiper">
-          <button className="text-white pr-4">Discover</button>
+        {/* <Link to='/search'>
+          <button className='text-white pr-4'>Discover</button>
         </Link> */}
         <Link to='/login'>
           <button className='text-white pr-4'>Sign In</button>
         </Link>
-        <Link to='/signup'>
+        {/* <Link to='/signup'>
           <button className='bg-black bg-opacity-80 px-3 py-2 rounded-full cursor-pointer text-white hover:bg-black'>
             Sign Up
           </button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
