@@ -13,7 +13,6 @@ const Main = () => {
       setMovies(response.data.results);
     });
   }, []);
-  // console.log(movie);
 
   // Tronquer le synopsis s'il est trop long
   const truncateString = (str, num) => {
@@ -35,13 +34,13 @@ const Main = () => {
 
   return (
     <div className='w-full h-[550px] text-white'>
-      <div className='w-full h-full'>
+      <div className='relative w-full h-full'>
         {movie && (
           <Link to={`/movie/${movie.id}`}>
-            <div className='absolute w-full h-[550px] bg-gradient-to-r from-black'></div>
+            <div className='absolute w-full max-h-1/2-screen bg-gradient-to-r from-black'></div>
             <>
               <img
-                className='w-full h-full object-cover'
+                className='w-full h-full object-cover '
                 src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
                 alt={movie.title}
               />
@@ -49,7 +48,6 @@ const Main = () => {
                 <h1 className='text-3xl md:text-5xl font-bold'>
                   {movie.title}
                 </h1>
-
                 {/* <div className='my-4'>
                   <button className='border rounded-full bg-gray-300 hover:bg-white text-black border-gray-300 py-2 px-5'>
                     Watch Trailer

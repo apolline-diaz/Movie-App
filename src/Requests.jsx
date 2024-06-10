@@ -19,7 +19,6 @@ const requests = {
   requestLGBT: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=158718`,
   request1990: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&primary_release_year=1990`,
   request2000: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&primary_release_year=2000`,
-  requestFeministActivism: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=233514`,
   requestRomance: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=9840`,
   requestLove: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&sort_by=popularity.desc&page=1&with_keywords=9673`,
   requestComedy: `https://api.themoviedb.org/3/discover/movie?api_key=${key}&language=en-US&page=1&with_keywords=322268`,
