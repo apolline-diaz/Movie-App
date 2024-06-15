@@ -54,10 +54,10 @@ const MoviePage = () => {
 
   return (
     <>
-      <div className='text-black'>
-        <div className='relative max-h-1/2-screen overflow-hidden'>
+      <div className='text-black relative w-full h-full'>
+        <div className='relative w-full max-h-1/2-screenoverflow-hidden'>
           <img
-            className='opacity-130 w-full h-full object-center'
+            className='opacity-130 w-full h-full object-cover'
             src={`https://image.tmdb.org/t/p/original/${movie.img}`}
             alt={movie.name}
           />
@@ -110,6 +110,11 @@ const MoviePage = () => {
           <h3 className='font-bold'>SYNOPSIS</h3>
           <p className='text-base'>{movie.synopsis}</p>
         </div>
+        {/* <div className='p-5 space-x-2 gap-2'>
+          <span className='p-2 text-xs rounded-full border border-black'>
+            Key-word
+          </span>
+        </div> */}
       </div>
     </>
   );
