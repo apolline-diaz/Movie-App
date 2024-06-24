@@ -1,46 +1,33 @@
-# Movie/Match : Un site de référence films & séries
+# Movie/Match
 
-L'objectif de ce site est de vous tenir au courant de l'actualité des films et séries, explorer la base de données pour trouver plus d'infos.
+![alt text](src/assets/movie-app-1.png)
 
-# Description
+Site web d'actualité cinéma et séries, avec un répertoire issu de The Movie DataBase.
 
-Ce projet a plusieurs objectifs :
+## Fonctions
 
-- Être au courant de l'actualité cinéma et séries
-- Avoir un compte pour créer des listes personnalisées ("Watch List")
-- Trouver des informations détaillées sur les contenus (fiche film)
+- Découverture du répertoire : films du moment, films populaires et sélections thématiques
+- Fiche détaillée pour chaque film : informations techniques et artistiques
+- Page d'authentification (non fonctionnelle)
 
-Le site est encore en développement
+## Technologies
 
-### Page d'accueil
+- HTML
+- React /Vite
+- Tailwindcd doc
 
-![alt text](src/assets/home.png)
+Récupération des données via l'API The Movie Database.
 
-Elle affiche les films de l'actualité et plusieurs sélections thématiques.
+## Utilisation
 
-### Page de connexion "Sign In"
-
-![alt text](src/assets/Sign_In_Page.png)
-
-/!\ La création de compte et la connexion ne sont pas encore opérationnelles!
-
-Prochain objectif : intégrer un système d'authentification.
-
-En bref, cette page vous permet de vous connecter à votre compte.
-
-# Les technologies
-
-- React/Vite
-- Tailwind
-
-Utilisation de l'API The Movie Database.
-
-Objectifs futurs : installer une base de données avec possibilité d'ajouter des films à la BDD, avec PostgreSQL.
-
-# Aperçu
-
-N'hésitez pas à faire un tour sur le lien Github pour avoir un aperçu !
+Essayez l'application en suivant ce lien :
 
 https://apolline-diaz.github.io/Movie-App/
 
-Bonne visite !
+Cliquez sur l'image d'un film pour découvrir sa fiche détaillée.
+
+## Objectifs futurs
+
+- Ajouter une page avec une barre de recherche avec des filtres (catégories et mots-clés)
+- Installer une base de données avec possibilité d'ajouter des films à la BDD, avec PostgreSQL
+- Rendre fonctionnelle l'authentification avec possibilité de créer une liste de Favoris
