@@ -2,7 +2,7 @@
 
 ![alt text](src/assets/movie-app-1.png)
 
-Site web d'actualité cinéma et séries, avec un répertoire issu de The Movie DataBase.
+Site web d'actualité cinéma avec un répertoire issu de The Movie DataBase.
 
 ## Fonctions
 
@@ -13,8 +13,8 @@ Site web d'actualité cinéma et séries, avec un répertoire issu de The Movie 
 ## Technologies
 
 - HTML
-- React /Vite
-- Tailwindcd doc
+- React / Vite
+- Tailwind
 
 Récupération des données via l'API The Movie Database.
 
@@ -31,3 +31,4 @@ Cliquez sur l'image d'un film pour découvrir sa fiche détaillée.
 - Ajouter une page avec une barre de recherche avec des filtres (catégories et mots-clés)
 - Installer une base de données avec possibilité d'ajouter des films à la BDD, avec PostgreSQL
 - Rendre fonctionnelle l'authentification avec possibilité de créer une liste de Favoris
+- Ajouter une page pour les séries avec les mêmes fonctions
