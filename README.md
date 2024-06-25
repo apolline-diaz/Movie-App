@@ -32,3 +32,4 @@ Cliquez sur l'image d'un film pour découvrir sa fiche détaillée.
 - Installer une base de données avec possibilité d'ajouter des films à la BDD, avec PostgreSQL
 - Rendre fonctionnelle l'authentification avec possibilité de créer une liste de Favoris
 - Ajouter une page pour les séries avec les mêmes fonctions
+- Traduire le site en français

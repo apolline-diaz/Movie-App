@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import requests from "../Requests";
 import { Link } from "react-router-dom";
 
@@ -9,9 +8,14 @@ const Main = () => {
   const movie = movies[Math.floor(Math.random() * movies.length)];
 
   useEffect(() => {
-    axios.get(requests.requestPopular).then((response) => {
-      setMovies(response.data.results);
-    });
+    fetch(requests.requestPopular)
+      .then((response) => response.json())
+      .then((data) => {
+        setMovies(data.results);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
   }, []);
 
   // Tronquer le synopsis s'il est trop long
